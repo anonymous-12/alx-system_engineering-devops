@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Rl|greop -e '^d'|wc -l
+ls -Rl|grep -e '^d'|wc -l
